@@ -89,20 +89,20 @@ function AddNewInterview() {
                     <div className='mt-7 my-3'>
                         <label>Job Role/Job Position</label>
                         <Input placeholder="Ex. Full Stack Developer" required
-                        onChange={(event)=>setJobPosition(event.target.value)}
+                        onChange={(event)=>setJobPosition(event.target.value)} className="my-2"
                         />
                     </div>
                     <div className=' my-3'>
                         <label>Job Description/ Tech Stack (In Short)</label>
                         <Textarea placeholder="Ex. React, Angular, NodeJs, MySql etc" 
                         required
-                        onChange={(event)=>setJobDesc(event.target.value)} />
+                        onChange={(event)=>setJobDesc(event.target.value)} className="my-2"/>
                     </div>
                     <div className=' my-3'>
                         <label>Years of experience</label>
                         <Input placeholder="Ex.5"  type="number"  max="100" 
                         required
-                        onChange={(event)=>setJobExperience(event.target.value)}
+                        onChange={(event)=>setJobExperience(event.target.value)} className="my-2"
                         />
                     </div>
                 </div>
